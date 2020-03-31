@@ -1,0 +1,246 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: lightgrey;
+  margin-left: 24px;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: inherit;
+}
+
+nav .desktop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.desktop a {
+  margin-right: 16px;
+}
+
+.desktop a:hover {
+  text-decoration: underline;
+}
+
+nav.mobile {
+  display: none;
+}
+
+section.banner {
+  padding: 32px 0 32px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner_img-container {
+  width: 60%;
+}
+
+.banner_img-container img {
+  width: 100%;
+}
+.banner_text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 20px;
+}
+
+.banner_text-container h1 {
+  font-size: 2rem;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.banner_text-container h2 {
+  font-size: 1.4rem;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.banner_text-container button {
+  padding: 10px 30px;
+  background-color: gray;
+}
+
+.banner_text-container button:hover {
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.practicing {
+  display: flex;
+}
+
+.practicing_main-container1 {
+  width: 60%;
+  margin-right: 24px;
+}
+
+.practicing_main-container1 img {
+  width: 100%;
+}
+
+.practicing_main-container1 h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.practicing_main-container1 p:last-child {
+  margin: 10px 0;
+}
+
+.practicng_sub-container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.practicing_sub-container1 .img-mobile {
+  display: none;
+}
+
+.sub-container1 .box1 {
+  display: flex;
+  align-items: center;
+}
+
+.box1 .box1_img-container {
+  width: 30%;
+}
+
+.box1 .box1_img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.box1 .box1_text-container {
+  width: 65%;
+  margin-left: 20px;
+}
+
+.box1_text-container h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.box1_text-container h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.box1_text-container a {
+  font-size: 1rem;
+  color: blue;
+}
+
+.learning_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.learning h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+}
+.learning_box2 {
+  width: 300px;
+  margin: 20px 30px;
+  line-height: 1.5rem;
+}
+.learning_box2 img {
+  width: 100%;
+}
+
+.box2 h3 {
+  font-size: 1rem;
+
+  font-weight: 800;
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis_main-container3 {
+  width: 60%;
+  margin-right: 24px;
+}
+
+.thesis_main-container3 video {
+  width: 100%;
+}
+
+.thesis_main-container3 h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 15px 0;
+}
+
+.thesis_sub-container3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container3 .box3 {
+  display: flex;
+  align-items: center;
+}
+
+.box3 .box3_img-container {
+  width: 30%;
+}
+
+.box3 .box3_img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.box3 .box3_text-container {
+  width: 65%;
+  margin-left: 20px;
+}
+
+.box3_text-container h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.box3_text-container h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
