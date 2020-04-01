@@ -15,8 +15,7 @@ a {
 }
 
 body {
-  background-color: lightgrey;
-  margin-left: 24px;
+  background-color: whitesmoke;
 }
 
 header {
@@ -25,6 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 24px;
 }
 
 .logo {
@@ -54,10 +54,12 @@ section.banner {
   width: 100%;
   display: flex;
   align-items: center;
+  background-color: lightgrey;
 }
 
 .banner_img-container {
   width: 60%;
+  padding-left: 24px;
 }
 
 .banner_img-container img {
@@ -94,6 +96,7 @@ section.banner {
 
 .practicing {
   display: flex;
+  padding: 32px 0 32px 24px;
 }
 
 .practicing_main-container1 {
@@ -162,33 +165,53 @@ section.banner {
 .learning_container {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 24px;
 }
 
+.learning {
+  background-color: lightgrey;
+}
+
+.learning-mobile {
+  display: none;
+}
 .learning h2 {
   font-size: 2rem;
   font-weight: 800;
   text-align: center;
-  margin-top: 50px;
+  padding: 32px 0 32px 0;
 }
 .learning_box2 {
-  width: 300px;
+  width: 250px;
   margin: 20px 30px;
   line-height: 1.5rem;
+  background-color: whitesmoke;
 }
 .learning_box2 img {
   width: 100%;
 }
+.box2_text-container {
+  padding: 5px 10px;
+}
 
 .box2 h3 {
   font-size: 1rem;
-
   font-weight: 800;
 }
 
 .thesis {
-  display: flex;
+  padding: 0 0 32px 24px;
+}
+.thesis h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 32px 0 32px 0;
 }
 
+.thesis_container {
+  display: flex;
+}
 .thesis_main-container3 {
   width: 60%;
   margin-right: 24px;
@@ -240,7 +263,9 @@ section.banner {
 }
 
 footer {
-  padding: 10px 0;
+  padding: 30px 0;
   display: flex;
   justify-content: space-between;
+  padding-left: 24px;
+  border-top: 1px solid lightgrey;
 }

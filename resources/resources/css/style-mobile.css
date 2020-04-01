@@ -55,32 +55,40 @@
     padding: 10px 30px;
     min-width: 100%;
   }
-  .box2_img-container {
+  .learning-desktop {
     display: none;
   }
-  .box2 div,
-  span {
-    display: none;
-  }
-  .learning_container h3 {
+  .learning-mobile {
     display: inherit;
-    background-color: lightgray;
-    padding: 10px 10px;
-    width: 100%;
-    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 32px 24px;
   }
-  .box2 {
-    margin: 0;
+  .learning-mobile span {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+    width: 80%;
   }
+
   .sub-container3 {
     display: none;
   }
 
+  .main-container3 {
+    width: 100%;
+  }
+/* 
+  .main-container {
+    min-width: 100%;
+    height: auto;
+  }
   .main-container3 h1,
   p {
     display: none;
   }
   .main-container video {
-    width: 100%;
-  }
+    min-width: 100%;
+  } */
 }
